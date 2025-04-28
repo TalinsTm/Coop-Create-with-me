@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Создание маршрутов</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Создание маршрутов</h1>
+    </header>
+
+    <main>
+        <form id="routeForm">
+            <label for="routeName">Название маршрута:</label>
+            <input type="text" id="routeName" required>
+
+            <label for="routeDescription">Описание маршрута:</label>
+            <textarea id="routeDescription" required></textarea>
+
+            <label for="isPrivate">Сделать маршрут приватным:</label>
+            <input type="checkbox" id="isPrivate">
+
+            <button type="submit">Опубликовать маршрут</button>
+        </form>
+
+        <div id="routesList">
+            <h2>Опубликованные маршруты</h2>
+            <!-- Здесь будут отображаться опубликованные маршруты -->
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Создание маршрутов</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
